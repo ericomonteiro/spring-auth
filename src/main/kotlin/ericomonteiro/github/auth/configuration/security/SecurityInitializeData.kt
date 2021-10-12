@@ -15,7 +15,7 @@ class SecurityInitializeData(
 
         if (userRepository.count() == 0L) {
             val adminRole = Role("admin")
-            val adminUser = User("admin", "admin@mail.com", adminRole)
+            val adminUser = User("admin", "admin@mail.com", "123456", adminRole)
             userRepository.save(adminUser)
         }
     }
