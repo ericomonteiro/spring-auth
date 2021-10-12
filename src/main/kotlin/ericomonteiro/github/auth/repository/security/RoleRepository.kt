@@ -1,4 +1,4 @@
-package ericomonteiro.github.auth.repository
+package ericomonteiro.github.auth.repository.security
 
 import ericomonteiro.github.auth.model.security.Role
 import org.springframework.data.jpa.repository.JpaRepository

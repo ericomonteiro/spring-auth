@@ -2,7 +2,7 @@ package ericomonteiro.github.auth.configuration.security
 
 import ericomonteiro.github.auth.model.security.Role
 import ericomonteiro.github.auth.model.security.User
-import ericomonteiro.github.auth.repository.UserRepository
+import ericomonteiro.github.auth.repository.security.UserRepository
 import org.springframework.context.ApplicationListener
 import org.springframework.context.event.ContextRefreshedEvent
 import org.springframework.stereotype.Component
